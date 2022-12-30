@@ -15,20 +15,7 @@ function App() {
         "testuser@gmail.com": "user"
     }
 
-    let email = JSON.parse(localStorage.getItem("email")) ?? [];
-    const role=roles[email]
-
-    const  AdminRoute = () => {
-        const [manager, setmaneger] = useState(role==="manager"?true:null);
-    
-        return manager ? <Outlet /> : <Navigate to="/" />;
-    }
-    
-
-
-
-
-
+ 
 
   return (
   
@@ -43,13 +30,13 @@ function App() {
                     </ul>
 
                     <div className="text-end">
-                        <Link to="/login" className="btn btn-outline-light me-2">Login</Link>
+                        <Link to="/" className="btn btn-outline-light me-2">Login</Link>
                     </div>
                 </div>
             </div>
         </header>
      <Routes>
-      <Route path="/login" element={<Login/>}></Route>
+      <Route path="/" element={<Login/>}></Route>
       <Route path="/lista" element={<Lista/>}></Route>
       <Route path="/pagos" element={<Añadir_Pagos/>}></Route>
       <Route path="/servicios" element={<Servicios/>}></Route>
