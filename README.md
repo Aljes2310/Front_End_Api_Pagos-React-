@@ -7,6 +7,8 @@
 ___
 
 Este front end se hizo utilizando Reactv v6 Boostrap v5 , Sweetalert2.
+
+El back end (primera parte) se encuentra en el siguiente repositorio https://github.com/Aljes2310/API-Pagos-Servicios
 ___
 
 ## Visa de Login ; Ver src/pages/login.js
