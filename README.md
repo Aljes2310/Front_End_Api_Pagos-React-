@@ -22,4 +22,4 @@ ___
 
 
 ## Vista de Form de añadir servicios y modificar servicios ; Ver src/pages/servicios_admin.js
-![](https://github.com/Aljes2310/Front_End_Api_Pagos-React-/blob/main/vistaservicios_admin.PNG)
+![](https://github.com/Aljes2310/Front_End_Api_Pagos-React-/blob/main/vistaservicios_admin.png)
